@@ -40,16 +40,22 @@ export const experiences: Experience[] = [
     description: "Développement et maintenance d'applications web backend en Python/Django, implémentation d'API RESTful, analyse de données, création de tableaux de bord et intégration de solutions de paiement."
   },
   {
-    role: "Développeur Python (Stagiaire)",
-    company: "Orange",
-    period: "Juil. 2023 - Jan. 2024",
-    description: "Participation au développement d'un outil d'automatisation, contribution à la documentation technique, maintenance et débogage."
-  },
-  {
     role: "Développeur Python Freelance",
     company: "Missions Indépendantes",
     period: "2023 - Présent",
     description: "Spécialisé en web scraping avancé et analyse de données. Développement de scripts d'automatisation pour la collecte de données et création de pipelines pour la manipulation et l'analyse de données."
+  },
+  {
+    role: "Data Analyst",
+    company: "Societe Datascar",
+    period: "Fév. 2021 - Déc. 2023",
+    description: "Collecte, traitement et analyse de grandes quantités de données pour identifier des tendances, créer des rapports et aider à la prise de décision. Utilisation de Python, SQL et des outils de visualisation."
+  },
+  {
+    role: "Développeur Python (Stagiaire)",
+    company: "Orange",
+    period: "2020",
+    description: "Participation au développement d'un outil d'automatisation, contribution à la documentation technique, maintenance et débogage."
   }
 ];
 
