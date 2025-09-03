@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
   return (
     <header className="flex flex-col md:flex-row items-center gap-8 mb-12 animate-fade-in-up">
       <img
-        src="/unnamed.png"
+        src="/profil.png"
         alt="Photo de profil de Angelo RAKOTONIRINA"
         className="rounded-full w-32 h-32 md:w-40 md:h-40 border-4 border-slate-700 object-cover shadow-lg"
       />
