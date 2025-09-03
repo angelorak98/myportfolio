@@ -16,8 +16,8 @@ export const Section: React.FC<SectionProps> = ({ title, children }) => {
   }, []);
 
   return (
-    <section className={`py-12 md:py-16 opacity-0 ${isVisible ? 'animate-fade-in-up' : ''}`}>
-      <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-8 relative inline-block">
+    <section className={`py-6 md:py-8 opacity-0 ${isVisible ? 'animate-fade-in-up' : ''}`}>
+      <h2 className="text-2xl md:text-3xl font-bold text-slate-100 mb-6 relative inline-block">
         {title}
         <span className="absolute bottom-[-8px] left-0 w-1/2 h-1 bg-teal-500 rounded-full"></span>
       </h2>

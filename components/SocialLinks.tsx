@@ -26,7 +26,7 @@ export const SocialLinks: React.FC = () => {
   const gmapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
-    <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-3 mb-16 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
+    <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-3 mb-8 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
       <a href="https://www.linkedin.com/in/angelo-rakotonirina-5240b518a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-teal-400 transition-colors duration-300">
         <LinkedInIcon /> LinkedIn
       </a>

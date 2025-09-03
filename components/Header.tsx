@@ -10,7 +10,7 @@ const DownloadIcon: React.FC<{className?: string}> = ({ className }) => (
 
 export const Header: React.FC = () => {
   return (
-    <header className="flex flex-col md:flex-row items-center gap-8 mb-12 animate-fade-in-up">
+    <header className="flex flex-col md:flex-row items-center gap-8 mb-8 animate-fade-in-up">
       <img
         src="/profil.png"
         alt="Photo de profil de Angelo RAKOTONIRINA"
