@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: angelo-portfolio
+    env: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+    staticPublishPath: ./dist
