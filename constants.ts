@@ -64,7 +64,7 @@ export const formations: Formation[] = [
         degree: "Maitrise",
         school: "Ecole Nationale d'Informatique (ENI)",
         year: "2015 - 2019",
-        specialization: "Ingénierie logicielle. L'ENI est reconnue comme le premier centre de formation et de recherche en informatique à Madagascar, formant des ingénieurs qualifiés pour le secteur technologique."
+        specialization: "Formation approfondie en ingénierie logicielle, incluant la conception de systèmes d'information, le développement web et mobile, la gestion de bases de données, la sécurité informatique, et les méthodes agiles. L'ENI est reconnue comme le premier centre de formation et de recherche en informatique à Madagascar."
     },
     {
         degree: "Baccalauréat",
