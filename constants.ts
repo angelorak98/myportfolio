@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: "Outil d'Analyse de Sentiment",
     description: "Un script Python qui utilise des techniques de traitement du langage naturel (NLP) pour analyser le sentiment de textes. Intégration avec des API de réseaux sociaux pour la collecte de données.",
     technologies: ["Python", "NLTK", "TextBlob", "Tweepy", "Pandas"],
-    link: "#"
+    link: "https://github.com/angelorak98"
   },
   {
     title: "Scripts d'Automatisation de Scraping",

@@ -1,20 +1,82 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Portfolio d'Angelo RAKOTONIRINA
 
-# Run and deploy your AI Studio app
+## 👨‍💻 Développeur Python | Web Scraping | Analyse de Données
 
-This contains everything you need to run your app locally.
+Bienvenue sur mon portfolio professionnel ! Je suis Angelo RAKOTONIRINA, développeur Python spécialisé dans le web scraping avancé, l'analyse de données et l'automatisation.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ORXc0itQ-WVfbtxGLEjcccZJQR3tRw1T
+### 🚀 Technologies utilisées
 
-## Run Locally
+- **Frontend**: React 19, TypeScript, Tailwind CSS
+- **Build Tool**: Vite
+- **Deployment**: Compatible avec GitHub Pages, Netlify, Vercel
 
-**Prerequisites:**  Node.js
+### 📋 Mes compétences
 
+- Python (Flask, Django, FastAPI)
+- Web Scraping (Beautiful Soup, Scrapy)
+- Analyse de données (Pandas, NumPy, Matplotlib)
+- Bases de données (SQL, PostgreSQL)
+- API REST & intégrations
+- Docker & Git
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🛠️ Installation et démarrage local
+
+**Prérequis :** Node.js (version 16 ou supérieure)
+
+1. Clonez le repository :
+   ```bash
+   git clone https://github.com/angelorak98/angelo-rakotonirina-portfolio.git
+   cd angelo-rakotonirina-portfolio
+   ```
+
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+
+3. Lancez le serveur de développement :
+   ```bash
+   npm run dev
+   ```
+
+4. Ouvrez votre navigateur sur `http://localhost:5173`
+
+### 📦 Build pour la production
+
+```bash
+npm run build
+```
+
+### 📁 Structure du projet
+
+```
+├── src/
+│   ├── components/          # Composants React réutilisables
+│   ├── App.tsx             # Composant principal
+│   ├── constants.ts        # Données du portfolio
+│   └── types.ts           # Types TypeScript
+├── public/
+│   └── unnamed.png        # Photo de profil
+└── index.html             # Point d'entrée HTML
+```
+
+### 🌟 Fonctionnalités
+
+- Design responsive et moderne
+- Animation fluide avec Tailwind CSS
+- Section projets avec liens vers GitHub
+- Expériences professionnelles et formations
+- Liens vers les réseaux sociaux
+- CV téléchargeable
+
+### 📞 Contact
+
+- **Email**: rak.angelo98@gmail.com
+- **LinkedIn**: [Angelo RAKOTONIRINA](https://www.linkedin.com/in/angelo-rakotonirina-5240b518a/)
+- **GitHub**: [angelorak98](https://github.com/angelorak98)
+- **WhatsApp**: +261 38 63 279 75
+- **Localisation**: Antananarivo, Madagascar
+
+---
+
+💼 **Disponible pour des missions freelance et opportunités professionnelles !**
