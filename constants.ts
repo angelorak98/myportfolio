@@ -1,8 +1,8 @@
 import type { Project, Experience, Formation } from './types';
 
 export const skills: string[] = [
-  "Python", "Flask", "Django", "Web Scraping", "Data Analysis", "SQL", "Pandas", "NumPy", 
-  "Matplotlib", "API REST", "Git", "Docker", "Tailwind CSS", "FastAPI"
+  "Python", "Flask", "Django", "Web Scraping", "Data Analysis", "SQL", "Pandas", "NumPy",
+  "Matplotlib", "API REST", "Git", "Docker", "Tailwind CSS", "FastAPI", "Supabase"
 ];
 
 export const projects: Project[] = [
@@ -40,16 +40,16 @@ export const experiences: Experience[] = [
     description: "Développement et maintenance d'applications web backend en Python/Django, implémentation d'API RESTful, analyse de données, création de tableaux de bord et intégration de solutions de paiement."
   },
   {
-    role: "Développeur Python Freelance",
-    company: "Missions Indépendantes",
-    period: "2023 - Présent",
-    description: "Spécialisé en web scraping avancé et analyse de données. Développement de scripts d'automatisation pour la collecte de données et création de pipelines pour la manipulation et l'analyse de données."
-  },
-  {
     role: "Développeur Python (Stagiaire)",
     company: "Orange",
     period: "Juil. 2023 - Jan. 2024",
     description: "Participation au développement d'un outil d'automatisation, contribution à la documentation technique, maintenance et débogage."
+  },
+  {
+    role: "Développeur Python Freelance",
+    company: "Missions Indépendantes",
+    period: "2023 - Présent",
+    description: "Spécialisé en web scraping avancé et analyse de données. Développement de scripts d'automatisation pour la collecte de données et création de pipelines pour la manipulation et l'analyse de données."
   }
 ];
 
