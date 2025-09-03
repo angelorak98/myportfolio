@@ -47,6 +47,28 @@ Bienvenue sur mon portfolio professionnel ! Je suis Angelo RAKOTONIRINA, dévelo
 npm run build
 ```
 
+### 🌐 Déploiement sur Netlify
+
+Le projet est configuré pour un déploiement automatique sur Netlify :
+
+1. **Connecter à GitHub** :
+   - Allez sur [netlify.com](https://netlify.com)
+   - Cliquez sur "New site from Git"
+   - Connectez votre repository GitHub
+
+2. **Configuration automatique** :
+   - Build command : `npm run build` (détecté automatiquement)
+   - Publish directory : `dist` (configuré dans netlify.toml)
+   - Node.js version : 18
+
+3. **Fonctionnalités incluses** :
+   - Déploiement automatique à chaque push sur main
+   - SSL/HTTPS automatique
+   - CDN global pour performances optimales
+   - Gestion SPA avec redirections
+
+**Netlify détectera automatiquement la configuration grâce au fichier `netlify.toml`**
+
 ### 📁 Structure du projet
 
 ```
